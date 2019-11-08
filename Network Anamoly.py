@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # # Applying the Hypergeometric Distribution to Social Network Graphs
-# #### Michael Lanier NGA DCD
+# #### Michael Lanier 
 # #### 6/17/2019
 
 # ## To Do List:
