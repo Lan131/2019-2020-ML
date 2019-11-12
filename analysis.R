@@ -5,7 +5,7 @@ library(ggplot2)
 library(car)
 dat=read.xlsx("results.xlsx",sheetName='Sheet1')
 attach(dat)
-fit=lm(Acc~0+as.factor(ALG)+Data_size+as.factor(Embedding),data=dat)
+fit=lm(Acc~as.factor(ALG)+Data_size+as.factor(Embedding),data=dat)
 summary(fit)
 anova(fit)
 dat
