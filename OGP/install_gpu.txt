@@ -1,0 +1,53 @@
+
+verify your device supports cuda (you need generally higher than compute 3. 5 is reccomended) https://developer.nvidia.com/cuda-gpus
+download updated driver 
+https://www.nvidia.com/Download/index.aspx?lang=en-us
+
+install visual studio 2017. Dont install 2019 its not compatiable with the next step.
+https://visualstudio.microsoft.com/vs/older-downloads/
+
+make sure in the installer you say you want desktop development with c++. 
+
+make sure you have the correct sdk. The current compaitble version is 10.0.17763.0. You can find this on the far right in the installer.
+
+download cuda 10.1. Tensorflow doesn't currently support the most recent version. Only install cuda. Make sure you have visual studio integration turned on, use custom installation and skip installing latest driver.
+
+go to start and type "enviornment variables" add a new enviornment variable called TRACEDESIGNTIME set its value equal to true.
+
+open C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\1_Utilities\deviceQuery\deviceQuery_vs2017.sln with visual studio 2017. Go to build-> build solution. 
+
+If you have followed all these steps correctly you will see:
+
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+If not go back and follow the steps correctly.
+
+go to open windows powershell and type the following (you file may have ended up else where. The output from your build in the step above has the path.):
+
+ cd "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\1_Utilities\deviceQuery\x64\Debug"
+and then
+ .\deviceQuery
+
+You should now see:
+CUDA Device Query (Runtime API) version (CUDART static linking)
+
+Detected 1 CUDA Capable device(s)
+
+Followed by a bunch of information. If there is an incompatibility anywhere it will show up here.
+
+download cudnn. You will need a nvidia developer account. https://developer.nvidia.com/cudnn
+
+
+move .dll file to the bin folder here  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin
+move the .lib file to the lib folder here C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64
+move the include file to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include
+
+pip install tensorflow now. You should get 2.0.
+open python and run:
+import tensorflow as tf
+tf.config.list_physical_devices('GPU')
+
+If this returns true you are good to go.
+
+pip install keras
+import keras make sure it says using Tensorflow backend.
