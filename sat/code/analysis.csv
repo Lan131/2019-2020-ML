@@ -1,0 +1,41 @@
+Item,Azimuth,Date,Manual Count,Automated Count,Total Rev,State
+Bayonne_Crossing_Shopping Center_NJ440_6APR19,53,4/6/2020 0:00,253,94,"134,622,000,000",NJ
+"4650 W North Ave, Chicago, IL 60639, United States_19FEB2020",34,2/19/2020 0:00,183,99,"134,622,000,000",IL
+"7075 W Wheatland Rd, Dallas, TX 75249, USA_12DEC19",33,12/12/2019 0:00,269,4,1.42E+11,TX
+"1675 S Christopher Columbus Blvd, Philadelphia, PA 19148, United States_23JUN19",70,6/23/2019 0:00,309,98,1.30E+11,PA
+"844 Cleveland Ave, East Point, GA 30344, United States_29APR19",66,4/29/2019 0:00,197,88,1.24E+11,GA
+"1025 Sawdust Rd, Spring, TX 77380, United States_19APR19",63,4/19/2019 0:00,303,10,1.24E+11,TX
+"844 Cleveland Ave, East Point, GA 30344, United States_16APR19",62,4/16/2019 0:00,204,40,1.24E+11,GA
+"226-200 SW 26th Ave, Fort Lauderdale, FL 33312, USA_6APR19",64,4/6/2019 0:00,388,26,1.24E+11,FL
+"1675 S Christopher Columbus Blvd, Philadelphia, PA 19148, United States_6APR19.png",54,4/6/2019 0:00,359,99,1.24E+11,PA
+"1675 S Christopher Columbus Blvd, Philadelphia, PA 19148, United States_24MAR19",49,3/24/2019 0:00,287,95,1.24E+11,PA
+"7075 W Wheatland Rd, Dallas, TX 75249, USA_14MAR19",51,3/14/2019 0:00,222,7,1.24E+11,TX
+"3601 Washington Blvd, Arbutus, MD 21227, United States_28FEB19",39,2/28/2019 0:00,275,96,1.24E+11,MD
+"6145 N 35th Ave, Phoenix, AZ 85017, United States_28FEB19",44,2/28/2019 0:00,245,86,1.24E+11,AZ
+"3601 Washington Blvd, Arbutus, MD 21227, United States_11DEC18",26,12/11/2018 0:00,251,95,1.39E+11,MD
+"226-200 SW 26th Ave, Fort Lauderdale, FL 33312, USA_28NOV18",40,11/28/2018 0:00,278,9,1.39E+11,FL
+"1025 Sawdust Rd, Spring, TX 77380, United States_26NOV18",37,11/26/2018 0:00,267,82,1.39E+11,TX
+"226-200 SW 26th Ave, Fort Lauderdale, FL 33312, USA_1OCT18",56,10/1/2018 0:00,348,4,1.25E+11,FL
+"6145 N 35th Ave, Phoenix, AZ 85017, United States_25SEP18",53,9/25/2018 0:00,202,96,1.25E+11,AZ
+"6145 N 35th Ave, Phoenix, AZ 85017, United States_13SEP18",56,9/13/2018 0:00,223,97,1.25E+11,AZ
+"6145 N 35th Ave, Phoenix, AZ 85017, United States_12SEP18",57,9/12/2018 0:00,209,97,1.25E+11,AZ
+"6145 N 35th Ave, Phoenix, AZ 85017, United States_6SEP18",58,9/6/2018 0:00,246,94,1.25E+11,AZ
+"3601 Washington Blvd, Arbutus, MD 21227, United States_4SEP18",55,9/4/2018 0:00,248,97,1.25E+11,MD
+"6145 N 35th Ave, Phoenix, AZ 85017, United States_30AUG18",61,8/30/2018 0:00,226,94,1.25E+11,AZ
+"226-200 SW 26th Ave, Fort Lauderdale, FL 33312, USA_21AUG18",68,8/21/2018 0:00,350,61,1.25E+11,FL
+"6145 N 35th Ave, Phoenix, AZ 85017, United States_18AUG18",62,8/18/2018 0:00,323,97,1.25E+11,AZ
+"7075 W Wheatland Rd, Dallas, TX 75249, USA_18AUG18",65,8/18/2018 0:00,271,53,1.25E+11,TX
+"7075 W Wheatland Rd, Dallas, TX 75249, USA_5AUG18",68,8/5/2018 0:00,249,10,1.25E+11,TX
+"1025 Sawdust Rd, Spring, TX 77380, United States_19JUL18",69,7/19/2018 0:00,248,4,1.28E+11,TX
+"1025 Sawdust Rd, Spring, TX 77380, United States_6JUL18",70,7/6/2018 0:00,261,2,1.28E+11,TX
+"3601 Washington Blvd, Arbutus, MD 21227, United States_12JUN18",68,6/12/2018 0:00,296,99,1.28E+11,MD
+"7075 W Wheatland Rd, Dallas, TX 75249, USA_26MAY18",72,5/26/2018 0:00,280,0,1.28E+11,TX
+"3601 Washington Blvd, Arbutus, MD 21227, United States_14APR18",57,4/14/2018 0:00,359,61,1.23E+11,MD
+"3601 Washington Blvd, Arbutus, MD 21227, United States_24MAR18",50,3/24/2018 0:00,385,100,1.23E+11,MD
+"7075 W Wheatland Rd, Dallas, TX 75249, USA_3JAN18",32,1/3/2018 0:00,182,2,1.23E+11,TX
+"200 Wheatsheaf Ln, Philadelphia, PA 19137",67,7/8/2018 0:00,248,,1.28E+11,PA
+"2200 Wheatsheaf Ln, Philadelphia, PA 19137",39,2/28/2019 0:00,229,,1.24E+11,PA
+"2501 Route 130 S, Cinnaminson, NJ 08077",39,2/28/2019 0:00,205,,1.24E+11,NJ
+"3320 S Cicero Ave, Cicero, IL 60804",24,12/11/2018 0:00,307,,1.39E+11,IL
+"3320 S Cicero Ave, Cicero, IL 60804",45,3/16/2019 0:00,366,,1.24E+11,IL
+"6149 Old National Hwy, College Park, GA 30349",62,4/16/2019 0:00,245,,1.24E+11,GA
