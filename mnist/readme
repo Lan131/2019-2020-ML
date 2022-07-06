@@ -1,1 +1,30 @@
-Temples to push to RIS
+Templates for RIS:
+#accessing RIS
+ssh <username>@compute1-client-1.ris.wustl.edu
+echo $HOME
+groups
+bsub -Is -q general-interactive -a 'docker(alpine)' date
+
+
+
+
+
+
+Move data in and out (Ubuntu):
+
+sudo apt-get update && sudo apt-get install -y samba-client
+sudo yum install -y samba-client
+sudo truncate -s 0 /etc/samba/smb.conf
+cat > secret <<EOF
+username=<WUSTL KEY ID>
+password=<WUSTL KEY PASSWORD>
+domain=ACCOUNTS.AD.WUSTL.EDU
+EOF
+chmod 0600 secret
+
+
+smbclient -A secret -m SMB3 //storage1.ris.wustl.edu/jacobsn -c ls
+smbclient -A secret -m SMB3 //storage1.ris.wustl.edu/jacobsn -c 'cd Active; put somefile;'
+smbclient -A secret -m SMB3 //storage1.ris.wustl.edu/jacobsn -c 'cd Active; get somefile;'
+
+
